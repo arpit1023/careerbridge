@@ -47,7 +47,7 @@ const Signup = () => {
         const newErrors = {};
 
         if (!input.fullname.trim()) {
-            newErrors.fullName = "Full name is required.";
+            newErrors.fullname = "Full name is required.";
         } else if (input.fullname.trim().length > 20) {
             newErrors.fullName = "Full name cannot exceed 20 characters.";
         }
